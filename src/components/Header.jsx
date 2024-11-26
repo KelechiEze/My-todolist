@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import todoListImage from "../assets/todoListz.png";
 import styles from './header.module.css';
 
 function Header({ onAddTask }) {
