@@ -18,7 +18,7 @@ function Header({ onAddTask }) {
   return (
     <div>
       <div className={styles.header}>
-        <img src="/My-todolist/assets/todoListz.png" alt="Todo List" />
+        <img src="/src/assets/todoListz.png" alt="Todo List" />
       </div>
       <form onSubmit={handleSubmit} className={styles.newTaskForm}>
         <input
